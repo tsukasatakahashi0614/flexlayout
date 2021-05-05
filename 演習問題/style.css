@@ -3,3 +3,21 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.header {
+  padding: 30px 20px;
+  background-color: palevioletred;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header > div {
+  margin: 0 10px;
+  flex-basis: 140px;
+  height: 70px;
+  background-color: pink;
+}
+
+.header > :first-child {
+  margin-right: auto;
+}
